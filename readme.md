@@ -1,4 +1,4 @@
-# List Category Links with Pictures
+# List Taxonomy Links Shortcode
 
 Shortcode to load an unstyled list of Taxonomy Term Links, Depends WP Term Images 
 
