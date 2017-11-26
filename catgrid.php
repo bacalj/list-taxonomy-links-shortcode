@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: Cat Grid
-Description: Shortcode to Load a Grid of Taxonomy Term Links, Depends WP Term Images plugin: https://wordpress.org/plugins/wp-term-images/
+Plugin Name: List Category Links with Pictures
+Description: Shortcode to load an unstyled list of Taxonomy Term Links, Depends WP Term Images plugin: https://wordpress.org/plugins/wp-term-images/
 Author: Joe Bacal, Smith College ETS
 */
 
@@ -54,6 +54,6 @@ function catgrid_taxonomy_grid($atts, $content = null) {
 }
     
 //register it
-add_shortcode('catgrid', 'catgrid_taxonomy_grid');
+add_shortcode('taxlist', 'catgrid_taxonomy_grid');
     
 
