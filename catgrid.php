@@ -42,7 +42,7 @@ function catgrid_taxonomy_grid($atts, $content = null) {
         echo '<article class="catgrid-article ' . $tax . '"><a href="'. $cat['term_link'] .'">';
             echo '<div class="catgrid-img-wrap">';
                 echo '<img class="catgrid-img" src="' . $cat['img_url'] . '">';
-            echo '<div>';
+            echo '</div>';
             echo '<div class="catgrid-cat-title">';
                 echo $cat['name'];
             echo '</div>';
