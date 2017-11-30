@@ -41,7 +41,8 @@ function catgrid_taxonomy_grid($atts, $content = null) {
     foreach ($catgridos as $cat) {
         echo '<article class="catgrid-article ' . $tax . '"><a href="'. $cat['term_link'] .'">';
             echo '<div class="catgrid-img-wrap">';
-                echo '<img class="catgrid-img" src="' . $cat['img_url'] . '">';
+                //echo '<img class="catgrid-img" src="' . $cat['img_url'] . '">';
+                echo '<div class="catgrid-bg-img" style="background-image:url(' . $cat['img_url'] . ')"></div>';
             echo '</div>';
             echo '<div class="catgrid-cat-title">';
                 echo $cat['name'];
